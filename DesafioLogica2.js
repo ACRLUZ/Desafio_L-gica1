@@ -20,27 +20,27 @@ if (score < 10){
     winbalance = "Ferro"
 }
 
-if (score >= 11 && score <= 20){
+else if (score >= 11 && score <= 20){
     winbalance = "Bronze"
 }
 
-if (score >= 21 && score <= 50){
+else if (score >= 21 && score <= 50){
     winbalance = "Prata"
 }
 
-if (score >= 51 && score <= 80){
+else if (score >= 51 && score <= 80){
     winbalance = "Ouro"
 }
 
-if (score >= 81 && score <= 90){
+else if (score >= 81 && score <= 90){
     winbalance = "Diamante"
 }
 
-if (score >= 91 && score <= 100){
+else if (score >= 91 && score <= 100){
     winbalance = "Lendário"
 }
 
-if (score >= 101 ){
+else if (score >= 101 ){
     winbalance = "Imortal"
 }
 

@@ -8,32 +8,32 @@ if (XP <=1000) {
     nivel = "Ferro"
 }
 
-if (XP >=1001 && XP <=2000 ) {
+else if (XP >=1001 && XP <=2000 ) {
     nivel = "Bronze"
 }
 
-if (XP >=2001 && XP <=5000 ) {
+else if (XP >=2001 && XP <=5000 ) {
     nivel = "Prata"
 }
 
-if (XP >=5001 && XP <=7000 ) {
+else if (XP >=5001 && XP <=7000 ) {
     nivel = "Ouro"
 }
 
-if (XP >=7001 && XP <=8000 ) {
+else if (XP >=7001 && XP <=8000 ) {
     nivel = "Platina"
 
 }
 
-if (XP >=8001 && XP <=9000 ) {
+else if (XP >=8001 && XP <=9000 ) {
     nivel = "Ascendente"
 }
 
-if (XP >=9001 && XP <=10000 ) {
+else if (XP >=9001 && XP <=10000 ) {
     nivel = "Imortal"
 }
 
-if (XP >=10001 ) {
+else if (XP >=10001 ) {
     nivel = "Radiante"
 }
 
